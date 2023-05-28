@@ -1,0 +1,2 @@
+image_publisher
+-DCATKIN_DEVEL_PREFIX=/home/mohammad/video_publisher_in_ros/devel -DCMAKE_INSTALL_PREFIX=/home/mohammad/video_publisher_in_ros/install -G Unix Makefiles
