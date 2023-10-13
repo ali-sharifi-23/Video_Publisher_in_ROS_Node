@@ -67,14 +67,14 @@ set(image_publisher_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(image_publisher_SOURCE_PREFIX /home/mohammad/video_publisher_in_ros/src/image_publisher)
-  set(image_publisher_DEVEL_PREFIX /home/mohammad/video_publisher_in_ros/devel)
+  set(image_publisher_SOURCE_PREFIX /home/mohammad/Video_Publisher_in_ROS_Node/src/image_publisher)
+  set(image_publisher_DEVEL_PREFIX /home/mohammad/Video_Publisher_in_ROS_Node/devel)
   set(image_publisher_INSTALL_PREFIX "")
   set(image_publisher_PREFIX ${image_publisher_DEVEL_PREFIX})
 else()
   set(image_publisher_SOURCE_PREFIX "")
   set(image_publisher_DEVEL_PREFIX "")
-  set(image_publisher_INSTALL_PREFIX /home/mohammad/video_publisher_in_ros/install)
+  set(image_publisher_INSTALL_PREFIX /home/mohammad/Video_Publisher_in_ROS_Node/install)
   set(image_publisher_PREFIX ${image_publisher_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mohammad/video_publisher_in_ros/install/lib;/home/mohammad/test/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/mohammad/Video_Publisher_in_ROS_Node/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(image_publisher_LIBRARIES ${image_publisher_LIBRARIES})
 
   _list_append_unique(image_publisher_LIBRARY_DIRS ${${image_publisher_dep}_LIBRARY_DIRS})
-  list(APPEND image_publisher_EXPORTED_TARGETS ${${image_publisher_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(image_publisher_EXPORTED_TARGETS ${${image_publisher_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

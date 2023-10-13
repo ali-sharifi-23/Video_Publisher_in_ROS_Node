@@ -2,7 +2,7 @@
 <launch>
   <node name="camera1_image_publisher" pkg="image_publisher" type='image_publisher_node.py'>
       <param name="publisher_mode" value="file" />
-      <param name="video_path" value="/home/mohammad/Desktop/dataset_cable_cam/backyard_seq1_slow/video.h264" />
+      <param name="video_path" value="/home/mohammad/Diamond_SF/Diamond_dataset/kalibration_data/kalibr/video.h264" />
       <param name="img_transforms" value="to_gray" />
       <param name="fps" value="20" />
       <remap from='/camera/cameraInfo' to='/camera/camera_info' />

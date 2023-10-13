@@ -1,4 +1,4 @@
-prefix=/home/mohammad/video_publisher_in_ros/devel
+prefix=/home/mohammad/Video_Publisher_in_ROS_Node/devel
 
 Name: image_publisher
 Description: Description of image_publisher
