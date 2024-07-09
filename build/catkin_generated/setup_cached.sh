@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mohammad/Video_Publisher_in_ROS_Node/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/mohammad/Video_Publisher_in_ROS_Node/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/mohammad/Video_Publisher_in_ROS_Node/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/mohammad/Video_Publisher_in_ROS_Node/src:$ROS_PACKAGE_PATH"
