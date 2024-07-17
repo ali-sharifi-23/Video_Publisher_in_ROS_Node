@@ -2,13 +2,6 @@
 
 This guide provides step-by-step instructions for setting up and running the Video Publisher project in a ROS Node. Follow these steps to ensure proper setup and execution.
 
-### Prerequisites
-
-Before you begin, ensure you have cloned the Video Publisher project from GitHub:
-```
-git clone https://github.com/MohammadrezaDindarloo/Video_Publisher_in_ROS_Node.git
-```
-
 ### Setup and Execution
 
 1. **Clean the Build Environment**
