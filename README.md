@@ -49,7 +49,3 @@ This guide provides step-by-step instructions for setting up and running the Vid
      ```
      rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.03 image:=/cam0/image_raw
      ```
-
-### Warning
-
-Ensure all commands are run in an environment where the dependencies of the `camera calibration` package are installed. In my system, this environment is named `camcalib`.
