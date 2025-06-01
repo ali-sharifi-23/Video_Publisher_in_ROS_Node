@@ -1,8 +1,8 @@
-# Install script for directory: /home/mohammad/Video_Publisher_in_ROS_Node/src/image_publisher
+# Install script for directory: /home/ali/Github/Video_Publisher_in_ROS_Node/src/image_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mohammad/Video_Publisher_in_ROS_Node/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ali/Github/Video_Publisher_in_ROS_Node/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,30 +37,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher/srv" TYPE FILE FILES
-    "/home/mohammad/Video_Publisher_in_ROS_Node/src/image_publisher/srv/set_gain.srv"
-    "/home/mohammad/Video_Publisher_in_ROS_Node/src/image_publisher/srv/set_exposure.srv"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/src/image_publisher/srv/set_gain.srv"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/src/image_publisher/srv/set_exposure.srv"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mohammad/Video_Publisher_in_ROS_Node/build/image_publisher/catkin_generated/installspace/image_publisher.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ali/Github/Video_Publisher_in_ROS_Node/build/image_publisher/catkin_generated/installspace/image_publisher.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher/cmake" TYPE FILE FILES
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/image_publisher/catkin_generated/installspace/image_publisherConfig.cmake"
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/image_publisher/catkin_generated/installspace/image_publisherConfig-version.cmake"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/image_publisher/catkin_generated/installspace/image_publisherConfig.cmake"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/image_publisher/catkin_generated/installspace/image_publisherConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher" TYPE FILE FILES "/home/mohammad/Video_Publisher_in_ROS_Node/src/image_publisher/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher" TYPE FILE FILES "/home/ali/Github/Video_Publisher_in_ROS_Node/src/image_publisher/package.xml")
 endif()
 

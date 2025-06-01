@@ -1,8 +1,8 @@
-# Install script for directory: /home/mohammad/Video_Publisher_in_ROS_Node/src
+# Install script for directory: /home/ali/Github/Video_Publisher_in_ROS_Node/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mohammad/Video_Publisher_in_ROS_Node/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ali/Github/Video_Publisher_in_ROS_Node/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,12 +37,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   
       if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
         file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
@@ -52,91 +47,91 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
       endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mohammad/Video_Publisher_in_ROS_Node/install/_setup_util.py")
+   "/home/ali/Github/Video_Publisher_in_ROS_Node/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mohammad/Video_Publisher_in_ROS_Node/install" TYPE PROGRAM FILES "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/ali/Github/Video_Publisher_in_ROS_Node/install" TYPE PROGRAM FILES "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mohammad/Video_Publisher_in_ROS_Node/install/env.sh")
+   "/home/ali/Github/Video_Publisher_in_ROS_Node/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mohammad/Video_Publisher_in_ROS_Node/install" TYPE PROGRAM FILES "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/ali/Github/Video_Publisher_in_ROS_Node/install" TYPE PROGRAM FILES "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/env.sh")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mohammad/Video_Publisher_in_ROS_Node/install/setup.bash;/home/mohammad/Video_Publisher_in_ROS_Node/install/local_setup.bash")
+   "/home/ali/Github/Video_Publisher_in_ROS_Node/install/setup.bash;/home/ali/Github/Video_Publisher_in_ROS_Node/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mohammad/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/setup.bash"
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/ali/Github/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/setup.bash"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mohammad/Video_Publisher_in_ROS_Node/install/setup.sh;/home/mohammad/Video_Publisher_in_ROS_Node/install/local_setup.sh")
+   "/home/ali/Github/Video_Publisher_in_ROS_Node/install/setup.sh;/home/ali/Github/Video_Publisher_in_ROS_Node/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mohammad/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/setup.sh"
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/ali/Github/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/setup.sh"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mohammad/Video_Publisher_in_ROS_Node/install/setup.zsh;/home/mohammad/Video_Publisher_in_ROS_Node/install/local_setup.zsh")
+   "/home/ali/Github/Video_Publisher_in_ROS_Node/install/setup.zsh;/home/ali/Github/Video_Publisher_in_ROS_Node/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mohammad/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/setup.zsh"
-    "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/ali/Github/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/setup.zsh"
+    "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mohammad/Video_Publisher_in_ROS_Node/install/.rosinstall")
+   "/home/ali/Github/Video_Publisher_in_ROS_Node/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mohammad/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES "/home/mohammad/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/ali/Github/Video_Publisher_in_ROS_Node/install" TYPE FILE FILES "/home/ali/Github/Video_Publisher_in_ROS_Node/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mohammad/Video_Publisher_in_ROS_Node/build/gtest/cmake_install.cmake")
-  include("/home/mohammad/Video_Publisher_in_ROS_Node/build/image_publisher/cmake_install.cmake")
+  include("/home/ali/Github/Video_Publisher_in_ROS_Node/build/gtest/cmake_install.cmake")
+  include("/home/ali/Github/Video_Publisher_in_ROS_Node/build/image_publisher/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +143,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mohammad/Video_Publisher_in_ROS_Node/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ali/Github/Video_Publisher_in_ROS_Node/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
